@@ -1,0 +1,7 @@
+step,rows_before,rows_after,rows_removed
+Exact target variety selection,129971,43828,86143
+Missing required values,43828,43828,0
+Blank required values,43828,43828,0
+Conflicting description labels,43828,43828,0
+Repeated descriptions,43828,40581,3247
+Balanced random sampling,40581,15000,25581

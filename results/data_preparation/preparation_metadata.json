@@ -1,0 +1,20 @@
+{
+  "source_file": "winemag-data-130k-v2.csv",
+  "source_sha256": "52af2643c8ac29f010f0cc629dfbdda1c74aa0f332d11762af9ef3de4e567ac9",
+  "sample_file": "data/wine_sample.csv",
+  "sample_sha256": "2925cef15298f314f52449d2d743c7a8075ffd8af59abaa1c5c4583f4ed05633",
+  "seed": 42,
+  "sample_cap": 3000,
+  "classes": [
+    "Chardonnay",
+    "Riesling",
+    "Pinot Noir",
+    "Cabernet Sauvignon",
+    "Syrah"
+  ],
+  "n_per_class": 3000,
+  "sample_rows": 15000,
+  "unique_winery_groups": 4695,
+  "conflicting_description_keys": 0,
+  "conflicting_rows_removed": 0
+}

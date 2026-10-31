@@ -1,0 +1,15 @@
+column,dtype,missing_count,missing_share
+Unnamed: 0,int64,0,0.0
+country,object,63,0.0005
+description,object,0,0.0
+designation,object,37465,0.2883
+points,int64,0,0.0
+price,float64,8996,0.0692
+province,object,63,0.0005
+region_1,object,21247,0.1635
+region_2,object,79460,0.6114
+taster_name,object,26244,0.2019
+taster_twitter_handle,object,31213,0.2402
+title,object,0,0.0
+variety,object,1,0.0
+winery,object,0,0.0

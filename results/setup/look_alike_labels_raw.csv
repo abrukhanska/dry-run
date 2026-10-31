@@ -1,0 +1,100 @@
+grape,look_alike_label,n_reviews,kind
+Chardonnay,Chardonnay-Viognier,35,blend
+Chardonnay,Chenin Blanc-Chardonnay,33,blend
+Chardonnay,Viura-Chardonnay,13,blend
+Chardonnay,Viognier-Chardonnay,12,blend
+Chardonnay,Sauvignon Blanc-Chardonnay,8,blend
+Chardonnay,Chardonnay-Semillon,7,blend
+Chardonnay,Chardonnay-Sauvignon,6,blend
+Chardonnay,Pinot-Chardonnay,6,blend
+Chardonnay,Chardonnay-Sauvignon Blanc,6,blend
+Chardonnay,Chardonnay-Pinot Blanc,5,blend
+Chardonnay,Semillon-Chardonnay,5,blend
+Chardonnay,Alvarinho-Chardonnay,5,blend
+Chardonnay,Macabeo-Chardonnay,4,blend
+Chardonnay,Pinot Blanc-Chardonnay,4,blend
+Chardonnay,Chardonnay Weissburgunder,2,UNCLASSIFIED
+Chardonnay,Chardonnay-Albariño,2,blend
+Chardonnay,Riesling-Chardonnay,1,blend
+Chardonnay,Chardonnay-Riesling,1,blend
+Chardonnay,Malagouzia-Chardonnay,1,blend
+Chardonnay,Moschofilero-Chardonnay,1,blend
+Chardonnay,Chardonnay-Pinot Gris,1,blend
+Riesling,Welschriesling,25,different grape
+Riesling,White Riesling,13,"same grape, other name"
+Riesling,Johannisberg Riesling,9,"same grape, other name"
+Riesling,Gewürztraminer-Riesling,7,blend
+Riesling,Riesling-Chardonnay,1,blend
+Riesling,Chardonnay-Riesling,1,blend
+Riesling,Schwartzriesling,1,different grape
+Pinot Noir,Pinot Nero,181,"same grape, other name"
+Pinot Noir,Spätburgunder,72,"same grape, other name"
+Pinot Noir,Pinot Noir-Gamay,18,blend
+Pinot Noir,Pinot Noir-Syrah,3,blend
+Pinot Noir,Pinot Blanc-Pinot Noir,1,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Merlot,117,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Syrah,102,blend
+Cabernet Sauvignon,Malbec-Cabernet Sauvignon,58,blend
+Cabernet Sauvignon,Tempranillo-Cabernet Sauvignon,53,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Carmenère,43,blend
+Cabernet Sauvignon,Shiraz-Cabernet Sauvignon,39,blend
+Cabernet Sauvignon,Syrah-Cabernet Sauvignon,37,blend
+Cabernet Sauvignon,Merlot-Cabernet Sauvignon,35,blend
+Cabernet Sauvignon,Touriga Nacional-Cabernet Sauvignon,28,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Shiraz,27,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Cabernet Franc,21,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Malbec,18,blend
+Cabernet Sauvignon,Cabernet Franc-Cabernet Sauvignon,16,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Tempranillo,15,blend
+Cabernet Sauvignon,Cabernet,11,UNCLASSIFIED
+Cabernet Sauvignon,Cabernet Sauvignon-Sangiovese,8,blend
+Cabernet Sauvignon,Carmenère-Cabernet Sauvignon,8,blend
+Cabernet Sauvignon,Sangiovese-Cabernet Sauvignon,6,blend
+Cabernet Sauvignon,Cabernet Sauvignon-Merlot-Shiraz,3,blend
+Cabernet Sauvignon,Cabernet Sauvignon Grenache,2,UNCLASSIFIED
+Cabernet Sauvignon,Cabernet Sauvignon-Barbera,1,blend
+Cabernet Sauvignon,Bobal-Cabernet Sauvignon,1,blend
+Syrah,Shiraz,836,"same grape, other name"
+Syrah,Petite Sirah,770,different grape
+Syrah,Cabernet Sauvignon-Syrah,102,blend
+Syrah,Syrah-Grenache,58,blend
+Syrah,Grenache-Syrah,50,blend
+Syrah,Shiraz-Cabernet Sauvignon,39,blend
+Syrah,Shiraz-Viognier,38,blend
+Syrah,Syrah-Cabernet Sauvignon,37,blend
+Syrah,Cabernet Sauvignon-Shiraz,27,blend
+Syrah,Monastrell-Syrah,21,blend
+Syrah,Malbec-Syrah,20,blend
+Syrah,Syrah-Mourvèdre,20,blend
+Syrah,Syrah-Viognier,18,blend
+Syrah,Syrah-Petite Sirah,16,blend
+Syrah,Syrah-Cabernet,15,blend
+Syrah,Shiraz-Grenache,15,blend
+Syrah,Garnacha-Syrah,13,blend
+Syrah,Cabernet-Syrah,13,blend
+Syrah,Tempranillo-Shiraz,8,blend
+Syrah,Syrah-Merlot,7,blend
+Syrah,Syrah-Tempranillo,7,blend
+Syrah,Carmenère-Syrah,7,blend
+Syrah,Tannat-Syrah,6,blend
+Syrah,Sangiovese-Syrah,5,blend
+Syrah,Syrah-Cabernet Franc,5,blend
+Syrah,Grenache-Shiraz,4,blend
+Syrah,Syrah-Carignan,4,blend
+Syrah,Shiraz-Mourvèdre,3,blend
+Syrah,Mourvèdre-Syrah,3,blend
+Syrah,Shiraz-Malbec,3,blend
+Syrah,Syrah-Petit Verdot,3,blend
+Syrah,Shiraz-Cabernet,3,blend
+Syrah,Carignan-Syrah,3,blend
+Syrah,Cabernet Sauvignon-Merlot-Shiraz,3,blend
+Syrah,Pinot Noir-Syrah,3,blend
+Syrah,Merlot-Syrah,2,blend
+Syrah,Shiraz-Tempranillo,2,blend
+Syrah,Cabernet-Shiraz,2,blend
+Syrah,Tempranillo-Syrah,2,blend
+Syrah,Syrah-Grenache-Viognier,1,blend
+Syrah,Syrah-Malbec,1,blend
+Syrah,Shiraz-Roussanne,1,blend
+Syrah,Merlot-Shiraz,1,blend
+Syrah,Syrah-Bonarda,1,blend

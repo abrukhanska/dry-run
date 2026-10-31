@@ -1,0 +1,6 @@
+variety,count,mean,median,std,min,max
+Chardonnay,3000,38.5,38.0,10.94,9,104
+Riesling,3000,41.32,40.0,12.36,6,125
+Pinot Noir,3000,42.46,42.0,11.5,6,89
+Cabernet Sauvignon,3000,42.27,42.0,12.6,8,135
+Syrah,3000,43.22,43.0,12.09,10,115
