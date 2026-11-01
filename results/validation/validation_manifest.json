@@ -1,0 +1,48 @@
+{
+  "sample_sha256": "2925cef15298f314f52449d2d743c7a8075ffd8af59abaa1c5c4583f4ed05633",
+  "split_seed": 43,
+  "split_seed_candidates": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "dev_group_fraction": 0.25,
+  "n_splits": 5,
+  "n_repeats": 3,
+  "fold_seeds": [
+    42,
+    43,
+    44
+  ],
+  "rules": {
+    "dev_share_range": [
+      0.2,
+      0.3
+    ],
+    "class_share_range": [
+      0.15,
+      0.25
+    ],
+    "min_wineries_per_class": 25,
+    "fold_class_share_range": [
+      0.1,
+      0.3
+    ],
+    "min_test_wineries_per_class": 5
+  },
+  "file_hashes": {
+    "split_assignment.csv": "1b722ae8833c4ed31b193fee5cc42a361cf32759bae9b0065cbb061b683e5554",
+    "folds_main.csv": "9d4b18beff9457ccd270b69c7224fc786b39f82c4a7044567348b73c34a51ff5",
+    "folds_dev.csv": "679382ca0b0ce7ac2fb9ec514e0a32c54fff5fd8cfd3a8dcb190592e40ce1494"
+  },
+  "scikit_learn": "1.6.1",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3"
+}
