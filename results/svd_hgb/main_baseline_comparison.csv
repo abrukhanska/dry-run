@@ -1,0 +1,5 @@
+level,mean_difference,sd_difference,folds_above_baseline,folds_compared
+L0,0.6201,0.014,15,15
+L1,0.5495,0.0147,15,15
+L2,0.5484,0.0149,15,15
+L3,0.5423,0.017,15,15

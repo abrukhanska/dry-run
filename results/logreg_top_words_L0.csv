@@ -1,0 +1,251 @@
+level,grape,rank,word,coefficient,matches_mask_terms
+L0,Cabernet Sauvignon,1,cabernet,10.07,True
+L0,Cabernet Sauvignon,2,cab,5.98,True
+L0,Cabernet Sauvignon,3,cassis,5.878,False
+L0,Cabernet Sauvignon,4,tannins,4.713,False
+L0,Cabernet Sauvignon,5,blackberry,4.075,False
+L0,Cabernet Sauvignon,6,currant,4.003,False
+L0,Cabernet Sauvignon,7,black,3.567,False
+L0,Cabernet Sauvignon,8,cedar,3.151,False
+L0,Cabernet Sauvignon,9,cherry,2.913,False
+L0,Cabernet Sauvignon,10,tannic,2.617,False
+L0,Cabernet Sauvignon,11,tannin,2.49,False
+L0,Cabernet Sauvignon,12,berry,2.43,False
+L0,Cabernet Sauvignon,13,blackberries,2.393,False
+L0,Cabernet Sauvignon,14,chocolate,2.392,False
+L0,Cabernet Sauvignon,15,oak,2.381,False
+L0,Cabernet Sauvignon,16,merlot,2.381,True
+L0,Cabernet Sauvignon,17,tobacco,2.356,False
+L0,Cabernet Sauvignon,18,sauvignon,2.28,False
+L0,Cabernet Sauvignon,19,bordeaux,2.233,True
+L0,Cabernet Sauvignon,20,herb,2.157,False
+L0,Cabernet Sauvignon,21,napa,2.063,True
+L0,Cabernet Sauvignon,22,mountain,2.039,False
+L0,Cabernet Sauvignon,23,varietal,1.955,False
+L0,Cabernet Sauvignon,24,bell,1.941,False
+L0,Cabernet Sauvignon,25,herbal,1.895,False
+L0,Cabernet Sauvignon,26,plum,1.827,False
+L0,Cabernet Sauvignon,27,herbs,1.785,False
+L0,Cabernet Sauvignon,28,cabs,1.782,True
+L0,Cabernet Sauvignon,29,currants,1.695,False
+L0,Cabernet Sauvignon,30,dark,1.665,False
+L0,Cabernet Sauvignon,31,aromas,1.579,False
+L0,Cabernet Sauvignon,32,mocha,1.515,False
+L0,Cabernet Sauvignon,33,verdot,1.496,False
+L0,Cabernet Sauvignon,34,petit,1.421,False
+L0,Cabernet Sauvignon,35,leathery,1.37,False
+L0,Cabernet Sauvignon,36,red,1.336,False
+L0,Cabernet Sauvignon,37,pencil,1.26,False
+L0,Cabernet Sauvignon,38,approachable,1.236,False
+L0,Cabernet Sauvignon,39,malbec,1.236,True
+L0,Cabernet Sauvignon,40,leafy,1.219,False
+L0,Cabernet Sauvignon,41,cabernets,1.212,True
+L0,Cabernet Sauvignon,42,bittersweet,1.212,False
+L0,Cabernet Sauvignon,43,clove,1.212,False
+L0,Cabernet Sauvignon,44,blueberry,1.203,False
+L0,Cabernet Sauvignon,45,bouquet,1.2,False
+L0,Cabernet Sauvignon,46,leather,1.18,False
+L0,Cabernet Sauvignon,47,vanilla,1.165,False
+L0,Cabernet Sauvignon,48,dill,1.161,False
+L0,Cabernet Sauvignon,49,leaf,1.156,False
+L0,Cabernet Sauvignon,50,oakville,1.15,True
+L0,Chardonnay,1,chardonnay,8.557,True
+L0,Chardonnay,2,apple,5.505,False
+L0,Chardonnay,3,tropical,3.99,False
+L0,Chardonnay,4,pineapple,3.79,False
+L0,Chardonnay,5,pear,3.631,False
+L0,Chardonnay,6,lemon,3.332,False
+L0,Chardonnay,7,chard,3.008,True
+L0,Chardonnay,8,toast,2.952,False
+L0,Chardonnay,9,yellow,2.934,False
+L0,Chardonnay,10,butter,2.61,False
+L0,Chardonnay,11,melon,2.584,False
+L0,Chardonnay,12,peach,2.559,False
+L0,Chardonnay,13,vanilla,2.472,False
+L0,Chardonnay,14,buttered,2.441,False
+L0,Chardonnay,15,citrus,2.433,False
+L0,Chardonnay,16,acidity,2.427,False
+L0,Chardonnay,17,creamy,2.405,False
+L0,Chardonnay,18,oak,2.362,False
+L0,Chardonnay,19,buttery,2.216,False
+L0,Chardonnay,20,crisp,2.151,False
+L0,Chardonnay,21,chablis,2.118,True
+L0,Chardonnay,22,wood,2.01,False
+L0,Chardonnay,23,white,1.983,False
+L0,Chardonnay,24,pineapples,1.976,False
+L0,Chardonnay,25,chardonnays,1.968,True
+L0,Chardonnay,26,pears,1.876,False
+L0,Chardonnay,27,butterscotch,1.825,False
+L0,Chardonnay,28,apples,1.801,False
+L0,Chardonnay,29,minerality,1.733,False
+L0,Chardonnay,30,toasted,1.732,False
+L0,Chardonnay,31,banana,1.67,False
+L0,Chardonnay,32,lime,1.647,False
+L0,Chardonnay,33,custard,1.604,False
+L0,Chardonnay,34,green,1.545,False
+L0,Chardonnay,35,cream,1.527,False
+L0,Chardonnay,36,salty,1.525,False
+L0,Chardonnay,37,ready,1.459,False
+L0,Chardonnay,38,mango,1.427,False
+L0,Chardonnay,39,toasty,1.414,False
+L0,Chardonnay,40,popcorn,1.4,False
+L0,Chardonnay,41,oaky,1.331,False
+L0,Chardonnay,42,salt,1.33,False
+L0,Chardonnay,43,corn,1.32,False
+L0,Chardonnay,44,apricot,1.283,False
+L0,Chardonnay,45,rich,1.265,False
+L0,Chardonnay,46,wine,1.26,False
+L0,Chardonnay,47,caramel,1.255,False
+L0,Chardonnay,48,lees,1.243,False
+L0,Chardonnay,49,almond,1.232,False
+L0,Chardonnay,50,texture,1.226,False
+L0,Pinot Noir,1,pinot,8.54,True
+L0,Pinot Noir,2,cherry,6.178,False
+L0,Pinot Noir,3,strawberry,5.093,False
+L0,Pinot Noir,4,cola,4.195,False
+L0,Pinot Noir,5,red,4.105,False
+L0,Pinot Noir,6,noir,3.88,False
+L0,Pinot Noir,7,raspberry,3.445,False
+L0,Pinot Noir,8,tea,3.102,False
+L0,Pinot Noir,9,cherries,2.928,False
+L0,Pinot Noir,10,cranberry,2.809,False
+L0,Pinot Noir,11,rose,2.547,False
+L0,Pinot Noir,12,pomegranate,2.271,False
+L0,Pinot Noir,13,pinots,2.25,True
+L0,Pinot Noir,14,raspberries,2.159,False
+L0,Pinot Noir,15,silky,2.144,False
+L0,Pinot Noir,16,forest,2.056,False
+L0,Pinot Noir,17,earthy,1.798,False
+L0,Pinot Noir,18,rhubarb,1.77,False
+L0,Pinot Noir,19,sandalwood,1.632,False
+L0,Pinot Noir,20,pommard,1.621,True
+L0,Pinot Noir,21,tomato,1.613,False
+L0,Pinot Noir,22,fruits,1.534,False
+L0,Pinot Noir,23,tannins,1.479,False
+L0,Pinot Noir,24,wild,1.447,False
+L0,Pinot Noir,25,floor,1.436,False
+L0,Pinot Noir,26,bottling,1.412,False
+L0,Pinot Noir,27,light,1.323,False
+L0,Pinot Noir,28,quickly,1.285,False
+L0,Pinot Noir,29,root,1.273,False
+L0,Pinot Noir,30,strawberries,1.244,False
+L0,Pinot Noir,31,cinnamon,1.235,False
+L0,Pinot Noir,32,single,1.233,False
+L0,Pinot Noir,33,sage,1.223,False
+L0,Pinot Noir,34,petals,1.222,False
+L0,Pinot Noir,35,vintage,1.201,False
+L0,Pinot Noir,36,sagebrush,1.198,False
+L0,Pinot Noir,37,pale,1.188,False
+L0,Pinot Noir,38,cuvee,1.188,False
+L0,Pinot Noir,39,dr,1.178,False
+L0,Pinot Noir,40,vineyard,1.157,False
+L0,Pinot Noir,41,oregon,1.153,True
+L0,Pinot Noir,42,earth,1.128,False
+L0,Pinot Noir,43,clone,1.117,False
+L0,Pinot Noir,44,slate,1.111,False
+L0,Pinot Noir,45,spices,1.099,False
+L0,Pinot Noir,46,burgundy,1.084,True
+L0,Pinot Noir,47,tasty,1.08,False
+L0,Pinot Noir,48,acidity,1.071,False
+L0,Pinot Noir,49,color,1.054,False
+L0,Pinot Noir,50,wood,1.051,False
+L0,Riesling,1,riesling,8.711,True
+L0,Riesling,2,dry,4.955,False
+L0,Riesling,3,honey,3.729,False
+L0,Riesling,4,lemon,3.488,False
+L0,Riesling,5,lime,3.221,False
+L0,Riesling,6,citrus,3.221,False
+L0,Riesling,7,apple,3.186,False
+L0,Riesling,8,peach,3.109,False
+L0,Riesling,9,grapefruit,2.952,False
+L0,Riesling,10,sweet,2.916,False
+L0,Riesling,11,stone,2.697,False
+L0,Riesling,12,apricot,2.581,False
+L0,Riesling,13,residual,2.518,False
+L0,Riesling,14,long,2.49,False
+L0,Riesling,15,steely,2.482,False
+L0,Riesling,16,rieslings,2.438,True
+L0,Riesling,17,perfumed,2.394,False
+L0,Riesling,18,off,2.385,False
+L0,Riesling,19,petrol,2.368,False
+L0,Riesling,20,white,2.291,False
+L0,Riesling,21,sugar,2.246,False
+L0,Riesling,22,screwcap,2.244,False
+L0,Riesling,23,tangerine,2.23,False
+L0,Riesling,24,freshness,2.14,False
+L0,Riesling,25,sweetness,2.097,False
+L0,Riesling,26,lemony,2.014,False
+L0,Riesling,27,mineral,2.013,False
+L0,Riesling,28,pear,1.919,False
+L0,Riesling,29,zesty,1.909,False
+L0,Riesling,30,honeyed,1.775,False
+L0,Riesling,31,slender,1.618,False
+L0,Riesling,32,aromatic,1.596,False
+L0,Riesling,33,peaches,1.576,False
+L0,Riesling,34,refreshing,1.565,False
+L0,Riesling,35,kabinett,1.556,False
+L0,Riesling,36,auslese,1.53,False
+L0,Riesling,37,spatlese,1.515,False
+L0,Riesling,38,drinks,1.496,False
+L0,Riesling,39,slightly,1.485,False
+L0,Riesling,40,floral,1.475,False
+L0,Riesling,41,intense,1.44,False
+L0,Riesling,42,perfume,1.43,False
+L0,Riesling,43,fragrant,1.38,False
+L0,Riesling,44,mandarin,1.377,False
+L0,Riesling,45,hints,1.367,False
+L0,Riesling,46,apples,1.349,False
+L0,Riesling,47,minerality,1.335,False
+L0,Riesling,48,zest,1.299,False
+L0,Riesling,49,palate,1.29,False
+L0,Riesling,50,intensely,1.288,False
+L0,Syrah,1,syrah,12.686,True
+L0,Syrah,2,pepper,5.292,False
+L0,Syrah,3,blackberry,3.731,False
+L0,Syrah,4,meat,3.373,False
+L0,Syrah,5,syrahs,3.144,True
+L0,Syrah,6,black,3.033,False
+L0,Syrah,7,blueberry,2.786,False
+L0,Syrah,8,licorice,2.582,False
+L0,Syrah,9,bacon,2.55,False
+L0,Syrah,10,viognier,2.533,True
+L0,Syrah,11,boysenberry,2.494,False
+L0,Syrah,12,blackberries,2.377,False
+L0,Syrah,13,peppery,2.195,False
+L0,Syrah,14,chocolate,2.17,False
+L0,Syrah,15,espresso,2.134,False
+L0,Syrah,16,coffee,2.077,False
+L0,Syrah,17,blue,1.978,False
+L0,Syrah,18,aromas,1.941,False
+L0,Syrah,19,purple,1.871,False
+L0,Syrah,20,tannins,1.866,False
+L0,Syrah,21,raspberry,1.862,False
+L0,Syrah,22,meaty,1.839,False
+L0,Syrah,23,berry,1.789,False
+L0,Syrah,24,violets,1.711,False
+L0,Syrah,25,smoke,1.659,False
+L0,Syrah,26,smoked,1.639,False
+L0,Syrah,27,cracked,1.573,False
+L0,Syrah,28,tar,1.553,False
+L0,Syrah,29,dark,1.547,False
+L0,Syrah,30,fruit,1.511,False
+L0,Syrah,31,berries,1.508,False
+L0,Syrah,32,leather,1.478,False
+L0,Syrah,33,violet,1.469,False
+L0,Syrah,34,hermitage,1.46,True
+L0,Syrah,35,rhone,1.423,True
+L0,Syrah,36,climate,1.421,False
+L0,Syrah,37,savory,1.419,False
+L0,Syrah,38,gamy,1.407,False
+L0,Syrah,39,jammy,1.395,False
+L0,Syrah,40,plum,1.392,False
+L0,Syrah,41,flowers,1.383,False
+L0,Syrah,42,lavender,1.375,False
+L0,Syrah,43,funk,1.356,False
+L0,Syrah,44,grape,1.349,False
+L0,Syrah,45,olive,1.346,False
+L0,Syrah,46,lighter,1.295,False
+L0,Syrah,47,boushey,1.292,False
+L0,Syrah,48,asphalt,1.282,False
+L0,Syrah,49,beef,1.269,False
+L0,Syrah,50,velvety,1.264,False

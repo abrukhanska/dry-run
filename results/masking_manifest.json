@@ -1,0 +1,13 @@
+{
+  "version": "masking-v1",
+  "list_sha256": {
+    "target_varieties.txt": "fe7bb70dfcf08909c0f6a8c3d88a811b4d9b7ce3371da23a4c91f26c30989277",
+    "other_grapes.txt": "480051156503e769cfa9a031b627960e0fa1efc5eb56dfe7c625a75cb2a5c8d6",
+    "geography.txt": "f0824c07c8c743c4e2e635815b1ff33235920d1cce417551d9032fe2f8a149f8"
+  },
+  "terms_per_list": {
+    "target_varieties": 20,
+    "other_grapes": 263,
+    "geography": 1623
+  }
+}

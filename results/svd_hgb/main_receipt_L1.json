@@ -1,0 +1,9 @@
+{
+  "decision_sha256": "2487b6517a0095fc81664ea3acab505fef4ea8047ee3e2efc305ef7d14346083",
+  "level": "L1",
+  "main_row_ids_sha256": "7b7fb71d4eaadaf08fa3ed16d70ab7f40f073286fff236429a44d0805d04b6c2",
+  "main_text_sha256": "2f844aeac343240ca91e6cf8218913482e7f2a1fe79cc8a452d3c3320066f6a1",
+  "model": "SVD_HGB",
+  "oof_sha256": "1248b5c0bfbdc6412db77752cebb8c44687ca569240515e9f786cbcd0490e9f8",
+  "scores_sha256": "9c25f3506efe9e4c51efc9a04daa9e6f39cba40cda201e1a5f7719755bee6201"
+}

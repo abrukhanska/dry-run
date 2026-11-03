@@ -1,0 +1,303 @@
+{
+  "candidate_components": [
+    100,
+    200
+  ],
+  "classes": [
+    "Chardonnay",
+    "Riesling",
+    "Pinot Noir",
+    "Cabernet Sauvignon",
+    "Syrah"
+  ],
+  "dev_candidate_scores_sha256": "348285775c9ca89e7b0a56ef2aa3cb1f1dc375afd884a726d343000b5fb2c472",
+  "dev_labels_sha256": "f8d0e732f64a1e843914c478f1dc726290d8b49414ebc8473d3ea3438bd5fce9",
+  "dev_row_ids_sha256": "c816fc1476ce41e8b25116f77add4157edc34733bec68b35bd6574b6e7a7223d",
+  "dev_text_sha256": {
+    "L0": "a05b8a2867a246636d9912a1dcac5decd739e2cd3980ac10c2c9861f8542e49d",
+    "L1": "143a5959c43a69840ddc0b40c54d38111efd48bc1bf4a8936aae71d3a46ec227",
+    "L2": "4c2a75a8f2a394f9b6124901e79d194b86ef0cd37dc8cb87d0e107a7fd57c72a",
+    "L3": "42e82903d90ff28f1a34677571a7d5ddbdd69f881fafef4ac92879b96e73dca2"
+  },
+  "levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "masking_lists_sha256": {
+    "geography.txt": "f0824c07c8c743c4e2e635815b1ff33235920d1cce417551d9032fe2f8a149f8",
+    "other_grapes.txt": "480051156503e769cfa9a031b627960e0fa1efc5eb56dfe7c625a75cb2a5c8d6",
+    "target_varieties.txt": "fe7bb70dfcf08909c0f6a8c3d88a811b4d9b7ce3371da23a4c91f26c30989277"
+  },
+  "masking_manifest_sha256": "a541424881caeba920af0d9fd59faabfb95eda870323eb21139e74f4dfe9d0f0",
+  "model": "SVD_HGB",
+  "n_repeats": 3,
+  "n_splits": 5,
+  "python": "3.13.18",
+  "sample_sha256": "2925cef15298f314f52449d2d743c7a8075ffd8af59abaa1c5c4583f4ed05633",
+  "seed": 42,
+  "selected_components": {
+    "L0": 100,
+    "L1": 200,
+    "L2": 200,
+    "L3": 200
+  },
+  "selected_pipeline_params": {
+    "L0": {
+      "clf": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "svd": {
+        "algorithm": "randomized",
+        "n_components": 100,
+        "n_iter": 5,
+        "n_oversamples": 10,
+        "power_iteration_normalizer": "auto",
+        "random_state": 42,
+        "tol": 0.0
+      },
+      "tfidf": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "<class 'numpy.float64'>",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 0.5,
+        "max_features": null,
+        "min_df": 5,
+        "ngram_range": [
+          1,
+          1
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": "unicode",
+        "sublinear_tf": true,
+        "token_pattern": "(?u)\\b[^\\W\\d_]{2,}\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      }
+    },
+    "L1": {
+      "clf": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "svd": {
+        "algorithm": "randomized",
+        "n_components": 200,
+        "n_iter": 5,
+        "n_oversamples": 10,
+        "power_iteration_normalizer": "auto",
+        "random_state": 42,
+        "tol": 0.0
+      },
+      "tfidf": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "<class 'numpy.float64'>",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 0.5,
+        "max_features": null,
+        "min_df": 5,
+        "ngram_range": [
+          1,
+          1
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": "unicode",
+        "sublinear_tf": true,
+        "token_pattern": "(?u)\\b[^\\W\\d_]{2,}\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      }
+    },
+    "L2": {
+      "clf": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "svd": {
+        "algorithm": "randomized",
+        "n_components": 200,
+        "n_iter": 5,
+        "n_oversamples": 10,
+        "power_iteration_normalizer": "auto",
+        "random_state": 42,
+        "tol": 0.0
+      },
+      "tfidf": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "<class 'numpy.float64'>",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 0.5,
+        "max_features": null,
+        "min_df": 5,
+        "ngram_range": [
+          1,
+          1
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": "unicode",
+        "sublinear_tf": true,
+        "token_pattern": "(?u)\\b[^\\W\\d_]{2,}\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      }
+    },
+    "L3": {
+      "clf": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "svd": {
+        "algorithm": "randomized",
+        "n_components": 200,
+        "n_iter": 5,
+        "n_oversamples": 10,
+        "power_iteration_normalizer": "auto",
+        "random_state": 42,
+        "tol": 0.0
+      },
+      "tfidf": {
+        "analyzer": "word",
+        "binary": false,
+        "decode_error": "strict",
+        "dtype": "<class 'numpy.float64'>",
+        "encoding": "utf-8",
+        "input": "content",
+        "lowercase": true,
+        "max_df": 0.5,
+        "max_features": null,
+        "min_df": 5,
+        "ngram_range": [
+          1,
+          1
+        ],
+        "norm": "l2",
+        "preprocessor": null,
+        "smooth_idf": true,
+        "stop_words": null,
+        "strip_accents": "unicode",
+        "sublinear_tf": true,
+        "token_pattern": "(?u)\\b[^\\W\\d_]{2,}\\b",
+        "tokenizer": null,
+        "use_idf": true,
+        "vocabulary": null
+      }
+    }
+  },
+  "selection": "Highest unrounded mean DEV macro-F1; exact ties prefer fewer components",
+  "validation_files_sha256": {
+    "folds_dev.csv": "679382ca0b0ce7ac2fb9ec514e0a32c54fff5fd8cfd3a8dcb190592e40ce1494",
+    "folds_main.csv": "9d4b18beff9457ccd270b69c7224fc786b39f82c4a7044567348b73c34a51ff5",
+    "split_assignment.csv": "1b722ae8833c4ed31b193fee5cc42a361cf32759bae9b0065cbb061b683e5554"
+  },
+  "validation_manifest_sha256": "596a437660a8cb6e8f3e282261a8a611d1dbfb9fd7fdb1e5eafe4f16ce61357b",
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.7.0"
+  }
+}

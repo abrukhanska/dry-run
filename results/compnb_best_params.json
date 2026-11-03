@@ -1,0 +1,30 @@
+{
+  "L0": {
+    "clf__alpha": 1.0,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "L1": {
+    "clf__alpha": 1.0,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "L2": {
+    "clf__alpha": 1.0,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "L3": {
+    "clf__alpha": 1.0,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+level,true_variety,predicted_variety,reviews,share_of_true_class_pct
+L0,Chardonnay,Riesling,148,6.877323420074349
+L0,Chardonnay,Pinot Noir,30,1.3940520446096654
+L0,Chardonnay,Cabernet Sauvignon,7,0.3252788104089219
+L0,Chardonnay,Syrah,15,0.6970260223048327
+L0,Riesling,Chardonnay,205,9.284420289855072
+L0,Riesling,Pinot Noir,23,1.0416666666666665
+L0,Riesling,Cabernet Sauvignon,2,0.09057971014492754
+L0,Riesling,Syrah,6,0.2717391304347826
+L0,Pinot Noir,Chardonnay,49,2.255985267034991
+L0,Pinot Noir,Riesling,27,1.2430939226519337
+L0,Pinot Noir,Cabernet Sauvignon,174,8.011049723756907
+L0,Pinot Noir,Syrah,174,8.011049723756907
+L0,Cabernet Sauvignon,Chardonnay,14,0.6334841628959276
+L0,Cabernet Sauvignon,Riesling,4,0.18099547511312217
+L0,Cabernet Sauvignon,Pinot Noir,197,8.914027149321267
+L0,Cabernet Sauvignon,Syrah,285,12.895927601809957
+L0,Syrah,Chardonnay,23,1.0281627179257935
+L0,Syrah,Riesling,8,0.35762181493071077
+L0,Syrah,Pinot Noir,227,10.147518998658917
+L0,Syrah,Cabernet Sauvignon,348,15.556548949485919
+L1,Chardonnay,Riesling,212,9.851301115241636
+L1,Chardonnay,Pinot Noir,39,1.812267657992565
+L1,Chardonnay,Cabernet Sauvignon,12,0.5576208178438662
+L1,Chardonnay,Syrah,26,1.20817843866171
+L1,Riesling,Chardonnay,290,13.134057971014492
+L1,Riesling,Pinot Noir,21,0.9510869565217392
+L1,Riesling,Cabernet Sauvignon,6,0.2717391304347826
+L1,Riesling,Syrah,6,0.2717391304347826
+L1,Pinot Noir,Chardonnay,60,2.7624309392265194
+L1,Pinot Noir,Riesling,42,1.9337016574585635
+L1,Pinot Noir,Cabernet Sauvignon,214,9.85267034990792
+L1,Pinot Noir,Syrah,269,12.384898710865562
+L1,Cabernet Sauvignon,Chardonnay,18,0.8144796380090499
+L1,Cabernet Sauvignon,Riesling,7,0.3167420814479638
+L1,Cabernet Sauvignon,Pinot Noir,241,10.904977375565611
+L1,Cabernet Sauvignon,Syrah,442,20.0
+L1,Syrah,Chardonnay,37,1.6540008940545372
+L1,Syrah,Riesling,12,0.5364327223960662
+L1,Syrah,Pinot Noir,334,14.930710773357175
+L1,Syrah,Cabernet Sauvignon,480,21.457308895842647
+L2,Chardonnay,Riesling,219,10.176579925650557
+L2,Chardonnay,Pinot Noir,44,2.0446096654275094
+L2,Chardonnay,Cabernet Sauvignon,16,0.7434944237918215
+L2,Chardonnay,Syrah,21,0.9758364312267658
+L2,Riesling,Chardonnay,281,12.72644927536232
+L2,Riesling,Pinot Noir,26,1.177536231884058
+L2,Riesling,Cabernet Sauvignon,7,0.3170289855072464
+L2,Riesling,Syrah,7,0.3170289855072464
+L2,Pinot Noir,Chardonnay,54,2.4861878453038675
+L2,Pinot Noir,Riesling,41,1.8876611418047882
+L2,Pinot Noir,Cabernet Sauvignon,228,10.497237569060774
+L2,Pinot Noir,Syrah,244,11.233885819521179
+L2,Cabernet Sauvignon,Chardonnay,21,0.9502262443438914
+L2,Cabernet Sauvignon,Riesling,7,0.3167420814479638
+L2,Cabernet Sauvignon,Pinot Noir,243,10.995475113122172
+L2,Cabernet Sauvignon,Syrah,444,20.09049773755656
+L2,Syrah,Chardonnay,31,1.3857845328565042
+L2,Syrah,Riesling,10,0.44702726866338843
+L2,Syrah,Pinot Noir,329,14.70719713902548
+L2,Syrah,Cabernet Sauvignon,493,22.038444345105052
+L3,Chardonnay,Riesling,208,9.66542750929368
+L3,Chardonnay,Pinot Noir,43,1.9981412639405203
+L3,Chardonnay,Cabernet Sauvignon,14,0.6505576208178439
+L3,Chardonnay,Syrah,25,1.161710037174721
+L3,Riesling,Chardonnay,282,12.771739130434783
+L3,Riesling,Pinot Noir,19,0.8605072463768116
+L3,Riesling,Cabernet Sauvignon,5,0.22644927536231885
+L3,Riesling,Syrah,10,0.4528985507246377
+L3,Pinot Noir,Chardonnay,50,2.3020257826887662
+L3,Pinot Noir,Riesling,45,2.071823204419889
+L3,Pinot Noir,Cabernet Sauvignon,236,10.865561694290976
+L3,Pinot Noir,Syrah,251,11.556169429097606
+L3,Cabernet Sauvignon,Chardonnay,16,0.7239819004524887
+L3,Cabernet Sauvignon,Riesling,9,0.40723981900452494
+L3,Cabernet Sauvignon,Pinot Noir,230,10.407239819004525
+L3,Cabernet Sauvignon,Syrah,474,21.447963800904976
+L3,Syrah,Chardonnay,38,1.6987036209208761
+L3,Syrah,Riesling,8,0.35762181493071077
+L3,Syrah,Pinot Noir,323,14.438980777827448
+L3,Syrah,Cabernet Sauvignon,537,24.005364327223962

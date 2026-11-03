@@ -1,0 +1,5 @@
+comparison,mean_difference,sd_difference,folds_decreased,folds_unchanged,folds_increased,folds_compared
+L1 minus L0,-0.0706,0.0058,15,0,0,15
+L2 minus L1,-0.0011,0.006,10,0,5,15
+L3 minus L2,-0.0062,0.0073,11,0,4,15
+L3 minus L0,-0.0779,0.0072,15,0,0,15
