@@ -8,7 +8,7 @@ We classify English-language wine reviews into five grape varieties and examine 
 
 The main notebook is [dry_run.ipynb](dry_run.ipynb). It includes the analysis, saved outputs, conclusions and the team's AI use disclosure.
 
-**Repository:** [abrukhanska/dry-run](https://github.com/abrukhanska/dry-run) · **[Open dry_run.ipynb in Colab](https://colab.research.google.com/github/abruhanska/dry-run/blob/main/dry_run.ipynb)**
+**Repository:** [abrukhanska/dry-run](https://github.com/abrukhanska/dry-run) · **[Open dry_run.ipynb in Colab](https://colab.research.google.com/github/abrukhanska/dry-run/blob/main/dry_run.ipynb)**
 
 ## Team contributions
 
@@ -150,7 +150,7 @@ Choose either GitHub cloning or ZIP upload. You do not need both.
 
 ### Option A: clone the repository from GitHub
 
-1. Open [abruhanska/dry-run](https://github.com/abruhanska/dry-run). The clone URL is already filled in below.
+1. Open [abrukhanska/dry-run](https://github.com/abrukhanska/dry-run). The clone URL is already filled in below.
 2. Open the main notebook in Colab through **File → Open notebook → GitHub**, or upload the `.ipynb` through **File → Upload notebook**.
 3. Connect to a CPU runtime.
 4. Add a temporary setup cell **before Section 2.1** and run:
@@ -160,7 +160,7 @@ from pathlib import Path
 import os
 import subprocess
 
-repository_url = "https://github.com/abruhanska/dry-run.git"
+repository_url = "https://github.com/abrukhanska/dry-run.git"
 project_dir = Path("/content/dry-run")
 
 if not project_dir.exists():
@@ -360,7 +360,7 @@ Use a dedicated virtual environment and a CPU. Internet access is needed for ini
 Either download and extract the project ZIP, or copy the HTTPS clone URL from GitHub and run:
 
 ```bash
-git clone https://github.com/abruhanska/dry-run.git
+git clone https://github.com/abrukhanska/dry-run.git
 cd dry-run
 ```
 
@@ -658,5 +658,6 @@ The supplied hashes and receipts provide consistency checks. The presence of sav
 ## 15. Reference documentation
 
 - [Wine Reviews dataset](https://www.kaggle.com/datasets/zynicide/wine-reviews)
+
 
 
