@@ -1,0 +1,61 @@
+model,true_grape,predicted_grape,L0_errors,L3_errors,change_pp
+LogReg,Chardonnay,Riesling,111,176,3.020446096654275
+LogReg,Chardonnay,Pinot Noir,22,30,0.37174721189591076
+LogReg,Chardonnay,Cabernet Sauvignon,2,8,0.2788104089219331
+LogReg,Chardonnay,Syrah,10,16,0.2788104089219331
+LogReg,Riesling,Chardonnay,171,212,1.8568840579710144
+LogReg,Riesling,Pinot Noir,16,19,0.1358695652173913
+LogReg,Riesling,Cabernet Sauvignon,4,4,0.0
+LogReg,Riesling,Syrah,2,5,0.1358695652173913
+LogReg,Pinot Noir,Chardonnay,32,37,0.2302025782688766
+LogReg,Pinot Noir,Riesling,17,24,0.32228360957642727
+LogReg,Pinot Noir,Cabernet Sauvignon,126,190,2.9465930018416207
+LogReg,Pinot Noir,Syrah,115,193,3.591160220994475
+LogReg,Cabernet Sauvignon,Chardonnay,6,14,0.36199095022624433
+LogReg,Cabernet Sauvignon,Riesling,7,9,0.09049773755656108
+LogReg,Cabernet Sauvignon,Pinot Noir,162,205,1.9457013574660633
+LogReg,Cabernet Sauvignon,Syrah,255,414,7.1945701357466065
+LogReg,Syrah,Chardonnay,17,21,0.17881090746535538
+LogReg,Syrah,Riesling,5,7,0.08940545373267769
+LogReg,Syrah,Pinot Noir,187,286,4.425569959767546
+LogReg,Syrah,Cabernet Sauvignon,303,474,7.644166294143943
+CompNB,Chardonnay,Riesling,244,321,3.5780669144981414
+CompNB,Chardonnay,Pinot Noir,25,32,0.3252788104089219
+CompNB,Chardonnay,Cabernet Sauvignon,12,21,0.41821561338289964
+CompNB,Chardonnay,Syrah,15,20,0.23234200743494424
+CompNB,Riesling,Chardonnay,146,195,2.2192028985507246
+CompNB,Riesling,Pinot Noir,14,18,0.18115942028985507
+CompNB,Riesling,Cabernet Sauvignon,5,7,0.09057971014492754
+CompNB,Riesling,Syrah,3,3,0.0
+CompNB,Pinot Noir,Chardonnay,83,98,0.6906077348066298
+CompNB,Pinot Noir,Riesling,66,88,1.0128913443830572
+CompNB,Pinot Noir,Cabernet Sauvignon,186,273,4.005524861878453
+CompNB,Pinot Noir,Syrah,121,159,1.7495395948434622
+CompNB,Cabernet Sauvignon,Chardonnay,17,27,0.45248868778280543
+CompNB,Cabernet Sauvignon,Riesling,24,34,0.45248868778280543
+CompNB,Cabernet Sauvignon,Pinot Noir,127,178,2.3076923076923075
+CompNB,Cabernet Sauvignon,Syrah,301,388,3.936651583710407
+CompNB,Syrah,Chardonnay,24,30,0.2682163611980331
+CompNB,Syrah,Riesling,27,31,0.17881090746535538
+CompNB,Syrah,Pinot Noir,167,257,4.023245417970497
+CompNB,Syrah,Cabernet Sauvignon,338,571,10.415735359856951
+SVD_HGB,Chardonnay,Riesling,148,208,2.7881040892193307
+SVD_HGB,Chardonnay,Pinot Noir,30,43,0.604089219330855
+SVD_HGB,Chardonnay,Cabernet Sauvignon,7,14,0.3252788104089219
+SVD_HGB,Chardonnay,Syrah,15,25,0.4646840148698885
+SVD_HGB,Riesling,Chardonnay,205,282,3.48731884057971
+SVD_HGB,Riesling,Pinot Noir,23,19,-0.18115942028985507
+SVD_HGB,Riesling,Cabernet Sauvignon,2,5,0.1358695652173913
+SVD_HGB,Riesling,Syrah,6,10,0.18115942028985507
+SVD_HGB,Pinot Noir,Chardonnay,49,50,0.04604051565377532
+SVD_HGB,Pinot Noir,Riesling,27,45,0.8287292817679558
+SVD_HGB,Pinot Noir,Cabernet Sauvignon,174,236,2.85451197053407
+SVD_HGB,Pinot Noir,Syrah,174,251,3.5451197053406998
+SVD_HGB,Cabernet Sauvignon,Chardonnay,14,16,0.09049773755656108
+SVD_HGB,Cabernet Sauvignon,Riesling,4,9,0.22624434389140272
+SVD_HGB,Cabernet Sauvignon,Pinot Noir,197,230,1.493212669683258
+SVD_HGB,Cabernet Sauvignon,Syrah,285,474,8.552036199095022
+SVD_HGB,Syrah,Chardonnay,23,38,0.6705409029950827
+SVD_HGB,Syrah,Riesling,8,8,0.0
+SVD_HGB,Syrah,Pinot Noir,227,323,4.29146177916853
+SVD_HGB,Syrah,Cabernet Sauvignon,348,537,8.448815377738041

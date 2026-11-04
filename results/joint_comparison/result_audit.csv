@@ -1,0 +1,15 @@
+model,level,fold_scores,OOF_reviews,repeat0_metrics_match
+LogReg,L0,15,10979,True
+LogReg,L1,15,10979,True
+LogReg,L2,15,10979,True
+LogReg,L3,15,10979,True
+CompNB,L0,15,10979,True
+CompNB,L1,15,10979,True
+CompNB,L2,15,10979,True
+CompNB,L3,15,10979,True
+SVD_HGB,L0,15,10979,True
+SVD_HGB,L1,15,10979,True
+SVD_HGB,L2,15,10979,True
+SVD_HGB,L3,15,10979,True
+Dummy_most_frequent,none,15,10979,True
+Dummy_stratified,none,15,10979,True

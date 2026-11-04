@@ -1,0 +1,4 @@
+model,errors_on_true_red,red_to_other_red,red_to_white,share_staying_red
+LogReg,1874,1762,112,0.9402347918890075
+CompNB,2134,1826,308,0.8556701030927835
+SVD_HGB,2217,2051,166,0.9251240414975191
