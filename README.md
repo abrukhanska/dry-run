@@ -8,7 +8,7 @@ We classify English-language wine reviews into five grape varieties and examine 
 
 The main notebook is [dry_run.ipynb](dry_run.ipynb). It includes the analysis, saved outputs, conclusions and the team's AI use disclosure.
 
-**Repository:** [abruhanska/dry-run](https://github.com/abruhanska/dry-run) · **[Open dry_run.ipynb in Colab](https://colab.research.google.com/github/abruhanska/dry-run/blob/main/dry_run.ipynb)**
+**Repository:** [abrukhanska/dry-run](https://github.com/abrukhanska/dry-run) · **[Open dry_run.ipynb in Colab](https://colab.research.google.com/github/abruhanska/dry-run/blob/main/dry_run.ipynb)**
 
 ## Team contributions
 
