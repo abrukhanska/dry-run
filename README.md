@@ -1,4 +1,4 @@
-# Which Grape Is in the Glass?
+# Dry Run: Which Grape Is in the Glass?
 
 A Machine Learning mini-project at the National University of Kyiv-Mohyla Academy.
 
@@ -6,7 +6,23 @@ A Machine Learning mini-project at the National University of Kyiv-Mohyla Academ
 
 We classify English-language wine reviews into five grape varieties and examine how performance changes when explicit names and geographical references are masked. The project compares TF-IDF + logistic regression, TF-IDF + ComplementNB, and TF-IDF + TruncatedSVD + histogram gradient boosting on shared winery-grouped folds.
 
-The main notebook is [wine_grape_classification.ipynb](wine_grape_classification.ipynb). It includes the analysis, saved outputs, conclusions and the team's AI use disclosure.
+The main notebook is [dry_run.ipynb](dry_run.ipynb). It includes the analysis, saved outputs, conclusions and the team's AI use disclosure.
+
+**Repository:** [abruhanska/dry-run](https://github.com/abruhanska/dry-run) · **[Open dry_run.ipynb in Colab](https://colab.research.google.com/github/abruhanska/dry-run/blob/main/dry_run.ipynb)**
+
+## Team contributions
+
+Sections **1–3 and 9–11 were prepared jointly**. These cover the research questions and hypotheses, setup and initial data inspection, the joint model comparison, shared-error and confidence analyses, and the final conclusions and limitations.
+
+The primary responsibilities for the remaining sections were:
+
+| Team member | Participant | Notebook sections | Main contribution |
+|---|---|---|---|
+| **Milena Mashchenko** | 1 | **4 and 8.1** | Data cleaning, duplicate and label-conflict checks, the frozen balanced sample and descriptive analysis; the TF-IDF + logistic regression experiment, DEV selection, grouped and ordinary-fold evaluation, coefficient interpretation and model-specific diagnostics. |
+| **Viktoriia Boriak** | 2 | **6 and 8.2** | The L0–L3 masking rules and dictionaries, their implementation and DEV checks; the TF-IDF + ComplementNB experiment, DEV selection, MAIN evaluation, metadata-only reference experiments and model-specific diagnostics. |
+| **Alina Brukhanska** | 3 | **5, 7 and 8.3** | The shared winery-grouped validation design, DEV/MAIN split and fold checks; common metrics, evaluation helpers and dummy baselines; the TF-IDF + SVD + gradient boosting experiment, component selection, frozen configuration records, verified reuse of saved results, and per-variety, error and computational-cost analyses. |
+
+The shared validation assignments and evaluation procedure connect the three individual experiments. The final cross-model interpretation in Sections 9–11 is a joint team contribution. AI assistance is described separately at the end of the notebook.
 
 ## 1. Choose a way to run the project
 
@@ -72,7 +88,7 @@ Keep the relative paths below. The notebook defines its project root as `Path.cw
 
 | Path | Contents |
 |---|---|
-| `wine_grape_classification.ipynb` | Main notebook, including AI use disclosure |
+| `dry_run.ipynb` | Main notebook, including AI use disclosure |
 | `requirements.txt` | Recorded numerical/plotting package versions |
 | `.gitignore` | Excludes local raw downloads, environments, backups and temporary archives |
 | `data/wine_sample.csv` | Frozen balanced sample, including descriptions, IDs and retained metadata |
@@ -134,7 +150,7 @@ Choose either GitHub cloning or ZIP upload. You do not need both.
 
 ### Option A: clone the repository from GitHub
 
-1. Open the repository on GitHub and copy its HTTPS URL from **Code → HTTPS**.
+1. Open [abruhanska/dry-run](https://github.com/abruhanska/dry-run). The clone URL is already filled in below.
 2. Open the main notebook in Colab through **File → Open notebook → GitHub**, or upload the `.ipynb` through **File → Upload notebook**.
 3. Connect to a CPU runtime.
 4. Add a temporary setup cell **before Section 2.1** and run:
@@ -144,8 +160,8 @@ from pathlib import Path
 import os
 import subprocess
 
-repository_url = input("Paste the repository HTTPS URL: ").strip()
-project_dir = Path("/content/wine-grape-project")
+repository_url = "https://github.com/abruhanska/dry-run.git"
+project_dir = Path("/content/dry-run")
 
 if not project_dir.exists():
     subprocess.run(
@@ -186,7 +202,7 @@ zip_names = [name for name in uploaded if name.lower().endswith(".zip")]
 if len(zip_names) != 1:
     raise ValueError("Upload exactly one project ZIP.")
 
-extract_dir = Path("/content/wine-project-files")
+extract_dir = Path("/content/dry-run-files")
 extract_dir.mkdir(parents=True, exist_ok=True)
 
 with ZipFile(zip_names[0]) as archive:
@@ -220,13 +236,13 @@ After changing to the project root:
 If a restart is required, restart the Python session while retaining the runtime's files. Afterwards, change back to the same project directory. For the GitHub route:
 
 ```python
-%cd /content/wine-grape-project
+%cd /content/dry-run
 ```
 
 For the prepared project ZIP route:
 
 ```python
-%cd /content/wine-project-files/wine_grape_project
+%cd /content/dry-run-files/dry-run
 ```
 
 If a GitHub ZIP has a different containing directory, use the project-root path printed by the extraction cell. Check:
@@ -344,11 +360,11 @@ Use a dedicated virtual environment and a CPU. Internet access is needed for ini
 Either download and extract the project ZIP, or copy the HTTPS clone URL from GitHub and run:
 
 ```bash
-git clone YOUR_REPOSITORY_HTTPS_URL wine-grape-project
-cd wine-grape-project
+git clone https://github.com/abruhanska/dry-run.git
+cd dry-run
 ```
 
-`YOUR_REPOSITORY_HTTPS_URL` is a placeholder for the actual repository URL. If using the prepared ZIP, open a terminal in its `wine_grape_project` directory instead. Check that `data/`, `masking/` and `results/` are directly inside the current directory.
+If using the prepared ZIP, open a terminal in its `dry-run` directory instead. Check that `data/`, `masking/` and `results/` are directly inside the current directory.
 
 ### Windows / PowerShell
 
@@ -366,11 +382,11 @@ py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install jupyterlab ipykernel
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m pip check
-.\.venv\Scripts\python.exe -m ipykernel install --user --name wine-grape-project --display-name "Wine grape project"
+.\.venv\Scripts\python.exe -m ipykernel install --user --name dry-run --display-name "Dry Run"
 .\.venv\Scripts\python.exe -m jupyterlab
 ```
 
-These commands do not require PowerShell activation scripts. In JupyterLab, open `wine_grape_classification.ipynb` and select the **Wine grape project** kernel.
+These commands do not require PowerShell activation scripts. In JupyterLab, open `dry_run.ipynb` and select the **Dry Run** kernel.
 
 ### macOS / Linux
 
@@ -383,7 +399,7 @@ python3.13 -m venv .venv
 .venv/bin/python -m pip install jupyterlab ipykernel
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m pip check
-.venv/bin/python -m ipykernel install --user --name wine-grape-project --display-name "Wine grape project"
+.venv/bin/python -m ipykernel install --user --name dry-run --display-name "Dry Run"
 .venv/bin/python -m jupyterlab
 ```
 
@@ -642,17 +658,5 @@ The supplied hashes and receipts provide consistency checks. The presence of sav
 ## 15. Reference documentation
 
 - [Wine Reviews dataset](https://www.kaggle.com/datasets/zynicide/wine-reviews)
-- [Dataset license recorded in the notebook: CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- [KaggleHub: versioned dataset downloads and authentication](https://github.com/Kaggle/kagglehub)
-- [GitHub: cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- [GitHub: downloading repository archives](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
-- [Google Colab FAQ: notebooks, runtime files and execution](https://research.google.com/colaboratory/faq.html)
-
-## 16. Checks performed while preparing this package
-
-The 22 recorded file-hash comparisons covering the frozen sample, masking/validation records, SVD candidate scores and four MAIN receipts passed. The notebook in this package is a byte-for-byte copy of the supplied `dry_run (89)(1).ipynb`, renamed to `wine_grape_classification.ipynb`; its code and outputs were not edited.
-
-The saved-result analysis code for Sections 9–10 was also executed in a separate headless check. Only the IPython display import/calls were replaced by a no-op for that check; the audit, metrics and plotting logic were retained. It verified the 12 text experiments and two baselines and completed the combined analyses without fitting models. The check used a different Python/numerical environment and therefore does not constitute exact-environment training reproduction or a full Colab top-to-bottom test. The raw-data preparation and all model fits were not repeated while preparing this package.
-
 
 
